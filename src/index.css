@@ -15,18 +15,18 @@
 /* === Radial Gradient === */
 #radial-bg {
   z-index: 1;
-  height: 900px;
-  width: 900px;
+  height: 600px;
+  width: 600px;
   position: absolute;
-  background-image: radial-gradient(closest-side, #403569, transparent);
+  background-image: radial-gradient(closest-side, #403569a0, transparent);
 }
 
 #radial-bg-2 {
   z-index: 1;
-  height: 900px;
-  width: 900px;
+  height: 600px;
+  width: 600px;
   position: absolute;
-  background-image: radial-gradient(closest-side, #4c5e7c, transparent);
+  background-image: radial-gradient(closest-side, #4c5e7caf, transparent);
 }
 
 #radial-bg-3 {
@@ -51,8 +51,8 @@
   background-image: radial-gradient(closest-side, #7070e1, transparent);
   transition: 0.2s all;
 }
-
+/* 
 #radial-bg-4:hover {
   background-image: radial-gradient(closest-side, #7070e1, transparent);
   transition: 0.2s all;
-}
+} */

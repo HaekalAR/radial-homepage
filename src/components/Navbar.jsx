@@ -9,10 +9,18 @@ const Navbar = () => {
       </div>
       <div className="bg-[#101010] grid place-content-center">
         <ul className="flex items-center gap-6 font-semibold">
-          <li>Features</li>
-          <li>FAQ</li>
-          <li>Blog</li>
-          <li>Contact</li>
+          <li className="hover:cursor-pointer hover:text-white transition-all duration-200">
+            Features
+          </li>
+          <li className="hover:cursor-pointer hover:text-white transition-all duration-200">
+            FAQ
+          </li>
+          <li className="hover:cursor-pointer hover:text-white transition-all duration-200">
+            Blog
+          </li>
+          <li className="hover:cursor-pointer hover:text-white transition-all duration-200">
+            Contact
+          </li>
         </ul>
       </div>
       <div className="grid place-content-end">
